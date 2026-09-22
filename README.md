@@ -1,6 +1,21 @@
 DSSH
 ====
 
+## No longer maintained
+
+I do not maintain this project any more.
+[signal-monitoring](https://github.com/jooray/signal-monitoring) does ssh checks over
+key authentication and notifies you when they fail.
+
+For what I am building now, see my
+[project showcase](https://juraj.bednar.io/showcase/).
+
+I also write books and work on things that are not code: my cypherpunk novel
+[Tamers of Entropy](https://tamersofentropy.net/), my English podcast
+[Option Plus](https://optionplus.io/), [my blog](https://juraj.bednar.io/en/blog-en/),
+and [everything else](https://juraj.bednar.io/en). There is also
+[more about me](https://juraj.bednar.io/en/about-me/).
+
 DSSH is a scriptable secure shell (ssh). It was written as a direct replacement for OpenSSH client for our use. DSSH adds SSH over SSH tunelling capabilities (for example to log in to network which is behind by firewall that supports SSH), scripting support (using BeanShell), advanced agent (which allows storing of passwords) and "su -" interactive logging for machines, which have disabled direct root login.
 
 All of this was done to enable automated scripting and logging to lots of machines based on a few simple rules.
